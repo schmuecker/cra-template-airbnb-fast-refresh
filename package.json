@@ -1,6 +1,7 @@
 {
-  "name": "cra-template",
-  "version": "1.0.3",
+  "name": "cra-template-airbnb-fast-refresh",
+  "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
     "prettify": "prettier --write './template/src/**/*.js'",
     "lint": "eslint './template/src/**/*.js'"
@@ -8,21 +9,27 @@
   "keywords": [
     "react",
     "create-react-app",
-    "template"
+    "cra-template",
+    "template",
+    "airbnb",
+    "enzyme",
+    "eslint",
+    "react-router",
+    "react-router-dom",
+    "prettier"
   ],
-  "description": "The base template for Create React App.",
+  "description": "A quick start Create React App template with Airbnb & Prettier ESLint configuration and React Fast Refresh.",
   "main": "template.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
-    "directory": "packages/cra-template"
+    "url": "https://github.com/schmuecker/cra-template-airbnb-fast-refresh",
+    "directory": "/"
   },
-  "license": "MIT",
   "engines": {
     "node": ">=10"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/schmuecker/cra-template-airbnb-fast-refresh/issues"
   },
   "files": [
     "template",
@@ -39,5 +46,10 @@
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "4.0.0",
     "prettier": "2.0.5"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest",
+    "access": "public"
   }
 }
